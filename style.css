@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+section{
+    height: 100vh;
+    padding: 35px;
+}
+
+p{
+    width: 60%;
+    color: beige;
+}
+
+section div{
+    max-width: 900px;
+    margin: auto;
+}
+
+h2{
+
+    font-size: 38px;
+    color: #4e323e;
+}
+
+
+
+h2,p{
+    color: aliceblue;
+}
+
+.sec1{
+   background-image: url(/image/pexels-eberhard-grossgasteiger-844297\ \(1\).jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-color: rgb(220, 47, 82);
+}
+
+.sec2{
+    background-color: rgb(64 39 44);
+    background-image: url(/image/white-big-cloud-png-27.png);  
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sec3{
+    
+    background-image:url(/image/cloud_PNG27.webp),url(/image/cloud_PNG27.webp), url(/image/cloud_PNG27.webp);
+    background-color: rgb(165 150 151);
+    background-position: bottom center ,center left, top right;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
